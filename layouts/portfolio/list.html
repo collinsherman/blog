@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{ partial "head.html" . }}
+
+<body>
+    <header>
+        {{ partial "nav.html" . }}
+    </header>
+
+    <div class="heading-breadcrumbs">
+        <div class="row">
+            <div class="small-12 columns">
+                <h1>Projects</h1>
+                <h3>Browse Some of My Work</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row portfolio" data-equalizer>
+        {{ range sort .Site.Data.portfolio "weight" }}
+        <div class="small-4 medium-3 columns">
+            <a href="{{ .url }}">
+                <div class="callout text-center" data-equalizer-watch>
+                    <img src="{{ .image }}" alt="{{ .title }}" class="thumbnail">
+                    <span>
+                        {{ .title }}
+                    </span>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
+</body>
+</html>

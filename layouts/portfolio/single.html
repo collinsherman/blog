@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+
+<body>
+    <header>
+        {{ partial "nav.html" . }}
+    </header>
+    {{ partial "pageTitle.html" . }}
+
+    <div class="row">
+        <div class="small-12 medium-12 large-12">
+            <div class="row">
+                <div class="small-12 columns">
+                    <!--TODO: Images look blurry on site, but not in VS-->
+                    <img src="{{ .Params.image }}" alt="{{ .Params.title }}" class="img-responsive">
+                </div>
+            </div>
+
+            <div class="row content-group portfolio">
+                <div class="small-12 medium-8 columns">
+                    <h2>Overview</h2>
+                    <p>
+                        {{ .Content }}
+                    </p>
+                    <p>
+                        To learn more about {{ .Params.title }}, feel free to
+                        <a href="/contact/" title="Contact">contact me</a>.
+                    </p>
+                    {{ if .Site.DisqusShortname }}
+                    <div id="comments">
+                        {{ template "_internal/disqus.html" . }}
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="small-12 medium-4 large-3 columns">
+                    <div class="callout">
+                        <h3>
+                            Project details
+                        </h3>
+
+                        <ul class="fa-ul">
+                            <li>
+                                <i class="fa-li fa fa-code"></i>
+                                <strong>Languages</strong>
+                                <ul>
+                                    {{ range .Params.languages }}
+                                    <li>{{ . }}</li>
+                                    {{ end }}
+                                </ul>
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-plug"></i>
+                                <strong>Framework</strong>
+                                <ul>
+                                    {{ range .Params.frameworks }}
+                                    <li>{{ . }}</li>
+                                    {{ end }}
+                                </ul>
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-databases"></i>
+                                <strong>Databases</strong>
+                                <ul>
+                                    {{ range .Params.databases }}
+                                    <li>{{ . }}</li>
+                                    {{ end }}
+                                </ul>
+                            </li>
+                            <li>
+                                {{ if isset .Params "livesite" }}
+                                <i class="fa-li fa fa-link"></i>
+                                <a href="{{ .Params.liveSite }}">Live Site</a> 
+                                {{ else if isset .Params "sourcecode" }}
+                                <i class="fa-li fa fa-github"></i>
+                                <a href="{{ .Params.sourceCode }}">Source Code</a>
+                                {{ end }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{ partial "footer.html" . }}"
+    {{ partial "scripts.html" . }}
+</body>
+</html>
