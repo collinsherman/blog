@@ -1,0 +1,38 @@
+/* your styles go here */
+
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+
+.img-thumbnail {
+  max-width: 50%;
+}
+
+.bs-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+
+.panel h3 {
+  margin-top: 0px;
+}
+
+.content-group {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 40px 0;
+}
+
+.banner img {
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+}

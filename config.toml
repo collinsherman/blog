@@ -16,8 +16,8 @@ defaultContentLanguage = "en"
     weight = 1
 
 [[menu.main]]
-    name = "Projects"
-    url  = "/projects/"
+    name = "Portfolio"
+    url  = "/portfolio/"
     weight = 2
 
 [[menu.main]]
