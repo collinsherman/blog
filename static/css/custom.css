@@ -37,3 +37,15 @@
   height: 50%;
 }
 
+#portfolio .img {
+  height: 250px;
+  width: 250px;
+}
+
+.seperate {
+  padding: 2px;
+}
+
+#footer p {
+  margin-top: 7px;
+}

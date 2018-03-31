@@ -1,6 +1,6 @@
 +++
 title = "About Me"
-subtitle = "Learn More About My Expeerience"
+subtitle = "Learn More About My Experience"
 id = "about"
 +++
 
