@@ -1726,7 +1726,7 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-  background: url('../img/texture-bw.png') center center repeat;
+  background: url('../img/texture-turquoise.png') center center repeat;
   padding: 20px 0;
   margin-bottom: 40px;
 }
@@ -1739,6 +1739,10 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.08em;
+  margin-left: 20px;
+}
+#heading-breadcrumbs h3 {
+  margin-left: 20px;
 }
 @media (max-width: 991px) {
   #heading-breadcrumbs h1 {
@@ -2916,6 +2920,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 18px;
   line-height: 20px;
   height: 62px;
+  margin-left: 20px
 }
 .navbar-brand:hover,
 .navbar-brand:focus {

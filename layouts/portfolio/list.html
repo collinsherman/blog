@@ -8,7 +8,16 @@
         {{ partial "nav.html" . }}
     </header>
 
-    {{ partial "breadcrumbs.html" . }}
+    <div id="heading-breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Projects</h1>
+                    <h3>Browse Some of My Work</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="row">
         {{ range sort .Site.Data.portfolio "weight" }}
