@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://collinsherman.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://collinsherman.github.io/portfolio/calculator-app/</loc>
+  </url>
+  
+  <url>
+    <loc>https://collinsherman.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://collinsherman.github.io/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://collinsherman.github.io/portfolio/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://collinsherman.github.io/portfolio/software-dev-projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://collinsherman.github.io/portfolio/sprint-generator/</loc>
+  </url>
+  
+  <url>
+    <loc>https://collinsherman.github.io/portfolio/summer-2017-internship/</loc>
+  </url>
+  
+  <url>
+    <loc>https://collinsherman.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://collinsherman.github.io/portfolio/theory-of-computation/</loc>
+  </url>
+  
+</urlset>
