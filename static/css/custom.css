@@ -65,12 +65,7 @@
 }
 
 #jumbotron h1 {
-  font-size: 72px;
   color: inherit;
-}
-
-#jumbotron p {
-  font-size: 36px;
 }
 
 .background-turquiose{
@@ -98,3 +93,13 @@
 #error-page .img-responsive {
   margin-left: 67px;
 }
+
+@media print, screen and (min-width: 40em){
+  #jumbotron h1, .h1 {
+      font-size: 6rem;
+    }
+  #jumbotron p, .p {
+      font-size: 3rem;
+  }
+}
+
