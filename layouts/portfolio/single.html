@@ -8,76 +8,77 @@
     </header>
     
     {{ partial "pageTitle.html" . }}
-
-    <div class="row">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-12 banner">
-                    <img src="{{ .Params.image }}" alt="{{ .Params.title }}" class="img">
-                </div>
-            </div>
-
-            <div class="row content-group">
-                <div class="col-sm-12 col-md-8">
-                    <h2>Overview</h2>
-                    <p>
-                        {{ .Content }}
-                    </p>
-                    <p>
-                        To learn more about {{ .Params.title }}, feel free to
-                        <a href="mailto:shermanc19@mail.wlu.edu" title="Contact">email me</a>.
-                    </p>
-                </div>
-                {{ if isset .Params "livesite" }}
-                <div class="col-sm-12 col-md-4 col-lg-3">
-                    <div class="panel">
-                        <h3>
-                            Project details
-                        </h3>
-
-                        <ul class="fa-ul">
-                            <li>
-                                <i class="fa-li fa fa-link"></i>
-                                <a href="{{ .Params.liveSite }}">Live Site</a> 
-                            </li>
-                        </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12 banner">
+                        <img src="{{ .Params.image }}" alt="{{ .Params.title }}" class="img">
                     </div>
                 </div>
-                {{ else if isset .Params "sourcecode" }}
-                <div class="col-sm-12 col-md-4 col-lg-3">
-                    <div class="panel">
-                        <h3>
-                            Project details
-                        </h3>
 
-                        <ul class="fa-ul">
-                            <li>
-                                <i class="fa-li fa fa-github"></i>
-                                <a href="{{ .Params.sourceCode }}">Source Code</a>
-                            </li>
-                        </ul>
+                <div class="row content-group">
+                    <div class="col-sm-12 col-md-8">
+                        <h2>Overview</h2>
+                        <p>
+                            {{ .Content }}
+                        </p>
+                        <p>
+                            To learn more about the {{ .Params.title }}, feel free to
+                            <a href="mailto:shermanc19@mail.wlu.edu" title="Contact">email me</a>.
+                        </p>
                     </div>
-                </div>
-                {{ else }}
-                <div class="col-sm-12 col-md-4 col-lg-3">
+                    {{ if isset .Params "livesite" }}
+                    <div class="col-sm-12 col-md-4 col-lg-3">
                         <div class="panel">
                             <h3>
-                                Live Sites
+                                Project details
                             </h3>
-    
+
                             <ul class="fa-ul">
                                 <li>
-                                    <i class="fa-li fa fa-external-link"></i>
-                                    <a href="https://shermandigital.com">https://shermandigital.com</a>
-                                </li>
-                                <li>
-                                    <i class="fa-li fa fa-external-link"></i>
-                                    <a href="https://vtcompetitivecheerleading.com">https://vtcompetitivecheerleading.com</a>
+                                    <i class="fa-li fa fa-link"></i>
+                                    <a href="{{ .Params.liveSite }}">Live Site</a> 
                                 </li>
                             </ul>
                         </div>
                     </div>
-                {{ end }}
+                    {{ else if isset .Params "sourcecode" }}
+                    <div class="col-sm-12 col-md-4 col-lg-3">
+                        <div class="panel">
+                            <h3>
+                                Project details
+                            </h3>
+
+                            <ul class="fa-ul">
+                                <li>
+                                    <i class="fa-li fa fa-github"></i>
+                                    <a href="{{ .Params.sourceCode }}">Source Code</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    {{ else }}
+                    <div class="col-sm-12 col-md-4 col-lg-3">
+                            <div class="panel">
+                                <h3>
+                                    Live Sites
+                                </h3>
+        
+                                <ul class="fa-ul">
+                                    <li>
+                                        <i class="fa-li fa fa-external-link"></i>
+                                        <a href="https://shermandigital.com">https://shermandigital.com</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-li fa fa-external-link"></i>
+                                        <a href="https://vtcompetitivecheerleading.com">https://vtcompetitivecheerleading.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    {{ end }}
+                </div>
             </div>
         </div>
     </div>
