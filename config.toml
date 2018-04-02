@@ -1,4 +1,4 @@
-baseURL = "https://collinsherman.github.io"
+baseURL = "https://collinsherman.github.io/"
 languageCode = "en-us"
 title = "Collin Sherman, Computer Science student at Washington and Lee University"
 theme = ""
