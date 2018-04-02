@@ -3,7 +3,7 @@ title = "Theory of Computation"
 subtitle = ""
 image = "/img/portfolio/polyTime.PNG"
 id = "theory"
-sourceCode = "https://github.com/collinsherman/polyTimeAlg"
+sourceCode = "https://github.com/collinsherman/polyTimeAlg/blob/master/polyTimeAlg.py"
 +++
 
 In my Theory of Computation class, we were tasked with finding out if a Context Free Language was decidable or not.  To do this, we were to use an algorithm from our textbook that wasn't the easiest to look at, to say the least.  I kept getting tripped up along the way for one reason or another, so out of frustration, I decided to write a program that would follow the algorithm and print out the answer for me.
