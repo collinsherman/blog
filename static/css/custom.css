@@ -94,3 +94,7 @@
 .navbar-brand img{
   height: 50px;
 }
+
+#error-page .img-responsive {
+  margin-left: 67px;
+}

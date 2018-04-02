@@ -29,11 +29,12 @@ defaultContentLanguage = "en"
     author = "CollinSherman"
     defaultKeywords = ["collin", "sherman"]
     defaultDescription = "Personal site for Collin Sherman"
+    logo = "/img/logo.jpg/"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "turquoise"
 
-    about_me = "<p>Junior Computer Science student at Washington and Lee University.</p>"
+    about_me = "<p>Junior Computer Science student at Washington and Lee University.  Check out the About Me page to learn more!</p>"
     copyright = "&copy 2018 Collin Sherman"
 
     # Format dates with Go's time formatting
