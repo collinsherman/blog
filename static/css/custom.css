@@ -32,8 +32,8 @@
 }
 
 .banner img {
-  max-height: 400px;
-  max-width: 800px
+  height: 20em;
+  max-width: 90vw;
 }
 
 #portfolio .img {
