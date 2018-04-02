@@ -32,9 +32,8 @@
 }
 
 .banner img {
-  margin: 0 auto;
-  width: 50%;
-  height: 50%;
+  max-height: 400px;
+  max-width: 800px
 }
 
 #portfolio .img {
@@ -48,4 +47,38 @@
 
 #footer p {
   margin-top: 7px;
+}
+
+@media print, screen{
+  #jumbotron {
+      background-image: url(/img/jumbotron.png);
+      background-repeat: repeat;
+      background-position: center center;
+      color: #fefefe;
+  }
+}
+
+#jumbotron .row {
+  background: rgba(0, 0, 0, 0.7);
+  height: 25em;
+  padding-top: 6.25em;
+}
+
+#jumbotron h1 {
+  font-size: 72px;
+  color: inherit;
+}
+
+#jumbotron p {
+  font-size: 36px;
+}
+
+.background-turquiose {
+  background-color: #4fbfa8;
+  color: #fefefe;
+}
+
+.padding-top-bottom-default {
+  padding-top: 4.6875em;
+  padding-bottom: 4.6875em;
 }
