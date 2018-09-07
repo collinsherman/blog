@@ -3,6 +3,7 @@ title = "Summer 2017 Internship"
 subtitle = ""
 image = "/img/portfolio/summerInternship.PNG"
 id = "internship"
+livesite = ""
 +++
 
 I worked for Sherman Digital LLC, headed by my older brother.  Though this was odd at first, having my brother as a boss, we were able to get past this and have a professional relationship while on the job.  My focus over the course of this internship was centered around the development of static sites, along with some additional applications that I built.  You can check out some of the sites to the right.
