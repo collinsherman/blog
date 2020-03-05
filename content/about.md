@@ -3,7 +3,7 @@ title = "About Me"
 subtitle = ""
 id = "about"
 +++
-
+<!-- TODO -->
 ## My Story
 I am currently a senior at Washington and Lee University, currently working towards a Bachelor of Science degree in Computer Science and a minor in Russian Language and Culture Studies.  I am also a captain on the Washington and Lee football team.
 
