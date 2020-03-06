@@ -1,6 +1,6 @@
 baseURL = "https://collinsherman.github.io/"
 languageCode = "en-us"
-title = "Collin Sherman, Computer Science student at Washington and Lee University"
+title = "Collin Sherman, Computer Scientist"
 theme = ""
 
 # Site language. Available translations in the theme's `/i18n` directory.
@@ -34,7 +34,7 @@ defaultContentLanguage = "en"
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "turquoise"
 
-    about_me = "<p>Senior Computer Science student at Washington and Lee University.  Check out the About Me page to learn more!</p>"
+    about_me = "<p>Computer Scientist with the Naval Information Warfare Center (NIWC) Atlantic.  Check out the About Me page to learn more!</p>"
     copyright = "Collin Sherman"
 
     # Format dates with Go's time formatting
