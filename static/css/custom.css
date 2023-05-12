@@ -49,6 +49,10 @@
   margin-top: 7px;
 }
 
+#footer ul a:hover, #footer ul a:focus {
+  text-decoration: underline;
+}
+
 @media print, screen{
   #jumbotron {
       background-image: url(/img/jumbotron.png);
@@ -62,6 +66,7 @@
   background: rgba(0, 0, 0, .85);
   height: 25em;
   padding-top: 6.25em;
+  margin-right: 0px;
 }
 
 #jumbotron h1 {
@@ -73,6 +78,10 @@
   color: #fefefe;
 }
 
+.row#description {
+  margin-right: 0px;
+}
+
 #description p {
   font-size: 24px;
 }
@@ -82,11 +91,11 @@
   padding-bottom: 4.6875em;
 }
 
-.navbar-brand h2{
+.navbar-brand h2 {
   margin-top: 10px;
 }
 
-.navbar-brand img{
+.navbar-brand img {
   height: 50px;
 }
 
@@ -105,4 +114,8 @@
 
 .text-snow {
   color: #ffffff
+}
+
+a.text-snow {
+  text-decoration: underline;
 }

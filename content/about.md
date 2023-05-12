@@ -9,7 +9,7 @@ I am currently a Computer Scientist with the Naval Information Warfare Center (N
 
 I graduated from Washington and Lee University, with a Bachelor of Science in Computer Science and a minor in Russian Language and Culture Studies.  I was a captain and running back on the Washington and Lee football team, helping to lead our team to two conference championships and become the most winning class in school history.  Being able to play the sport I loved in college was a great experience that I wouldn't trade the world for.
 
-When I have time outside of work, I love to explore the great city of Washington, DC with friends.  There is almost never an idle moment around the capital city, but when I do find one, working on projects at home keeps me busy.  I enjoy coming up with my own programming projects as well as buidling things with my hands.  Either way, creating something of my own is always fun and is rewarding to look at the final product when finished (even if they don't always turn out perfect!).
+When I have time outside of work, I love to explore the great city of Washington, DC with friends.  There is almost never an idle moment around the capital city, but when I do find one, working on projects at home keeps me busy.  I enjoy coming up with my own programming projects as well as buildling things with my hands.  Either way, creating something of my own is always fun and is rewarding to look at the final product when finished (even if they don't always turn out perfect!).
 
 To learn more and get the full details on me, check out my resume below!
 
